@@ -1,5 +1,6 @@
 def check_age(age):
-
+    # This checks that Users inputed data is valid.
+    # Age should be higher than 12, and lower than 114.
     if isinstance(age, str):
         return "Please enter an integer (ie: a number which does not haave a decimal part)."
     elif isinstance(age, float):
